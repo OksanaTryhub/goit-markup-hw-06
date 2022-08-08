@@ -529,6 +529,34 @@
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-form-title">Залиште свої дані, ми вам передзвонимо</p>
+
+          <label for="name" class="modal-form-label">Ім'я</label>
+          <input type="text" id="name" class="modal-form-input" />
+
+          <label for="tel" class="modal-form-label">Телефон</label>
+          <input type="tel" id="tel" class="modal-form-input" />
+
+          <label for="mail" class="modal-form-label">Пошта</label>
+          <input type="email" id="mail" class="modal-form-input" />
+
+          <label for="comment" class="modal-form-label">Коментар</label>
+          <textarea
+            name="comment"
+            id="comment"
+            class="modal-form-input textbox"
+            placeholder="Введіть текст"
+          ></textarea>
+
+          <input type="checkbox" id="confirm" class=" " />
+          <label for="confirm" class="confirm-label"
+            >Погоджуюся з розсилкою та приймаю
+            <a href="" target="_blank" class="confirm-link">Умови договору</a>
+          </label>
+
+          <button type="submit" class="modal-form-btn button">Відправити</button>
+        </form>
       </div>
     </div>
 
